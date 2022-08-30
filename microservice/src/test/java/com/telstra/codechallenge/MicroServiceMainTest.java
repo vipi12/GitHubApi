@@ -14,7 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestClientException;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class MicroServiceMainTest {
+class MicroServiceMainTest {
 
   @LocalServerPort
   private int port;
@@ -23,7 +23,7 @@ public class MicroServiceMainTest {
   private TestRestTemplate restTemplate;
 
   @Test
-  public void testHealth() throws RestClientException, MalformedURLException {
+  void testHealth() throws RestClientException, MalformedURLException {
     ResponseEntity<String> response = restTemplate
         .getForEntity(new URL("http://localhost:" + port + "/actuator/health")
             .toString(), String.class);
