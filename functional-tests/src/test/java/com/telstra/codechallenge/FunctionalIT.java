@@ -14,8 +14,8 @@ public class FunctionalIT {
   }
 
   @Karate.Test
-  Karate testQuotes() {
-    return Karate.run("quotes").relativeTo(getClass());
+  Karate testCatFacts() {
+    return Karate.run("catfacts").relativeTo(getClass());
   }
 
 }
