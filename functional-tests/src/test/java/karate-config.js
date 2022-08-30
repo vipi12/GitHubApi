@@ -5,15 +5,15 @@ function fn() {
   karate.configure("connectTimeout", 5000);
   karate.configure("readTimeout", 5000);
 
-  var protocol = "http";
-  var host = "localhost";
+  let protocol = "http";
+  let host = "localhost";
 
-  var microservicePort = karate.properties["microservice.port"];
+  let microservicePort = karate.properties["microservice.port"];
   if (!microservicePort) {
     microservicePort = "8080";
   }
 
-  config = {};
+  let config = {};
   config.microserviceUrl = protocol + "://" + host + ":" + microservicePort;
   return config;
 }

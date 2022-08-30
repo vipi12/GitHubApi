@@ -6,7 +6,7 @@ some results.
 
 ## Project Structure
 
-This is a multi module maven project with two modules:
+This is a multi-module maven project with two modules:
 
 - The `micoservice` module produces a spring boot application.
 - The `functional-tests` is used to run functional tests using the [karate](https://github.com/intuit/karate) library.
@@ -20,9 +20,9 @@ Select one of the two exercises below and add the required behaviour to the spri
 
 You will see that there are already a couple of endpoints in the `microservice` they are fundamentally there to demonstrate the use of the [karate](https://github.com/intuit/karate) library and should not be taken as complete examples.
 
-### Assesment
+### Assessment
 
-Your submission will be judge along the following criterea.
+Your submission will be judged on the following criteria.
 
 - The solution works.
 - The solution is maintainable.
@@ -35,7 +35,7 @@ Example curl api calls for these exercises are listed in the following gist http
 
 **1. Find the hottest repositories created in the last week**
 
-Use the [GitHub API][1] to expose an endpoint in this microservice the will get a list of the
+Use the [GitHub API][1] to expose an endpoint in this microservice that will get a list of the
 highest starred repositories in the last week.
 
 The endpoint should accept a parameter that sets the number of repositories to return.
