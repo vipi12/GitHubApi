@@ -17,7 +17,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <lombok.version>1.18.24</lombok.version>
-    <spring.boot.version>2.7.3</spring.boot.version>
+    <spring.boot.version>2.7.5</spring.boot.version>
     <karate.version>1.2.0</karate.version>
   </properties>
 
