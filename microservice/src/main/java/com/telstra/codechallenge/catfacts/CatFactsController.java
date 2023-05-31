@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CatFactsController {
-
   private final CatFactsService catFactsService;
 
   public CatFactsController(

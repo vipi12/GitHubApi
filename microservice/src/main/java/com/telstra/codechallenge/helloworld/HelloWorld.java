@@ -1,6 +1,5 @@
 package com.telstra.codechallenge.helloworld;
 
-
 public class HelloWorld {
   private final long id;
   private final String content;

@@ -17,5 +17,4 @@ public class FunctionalIT {
   Karate testCatFacts() {
     return Karate.run("catfacts").relativeTo(getClass());
   }
-
 }

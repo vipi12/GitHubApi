@@ -7,7 +7,6 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class CatFactsService {
-
   @Value("${catFacts.base.url}")
   private String catFactsBaseUrl;
 
